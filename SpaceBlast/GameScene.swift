@@ -31,18 +31,25 @@ class GameScene: SKScene {
 
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        /* Called when a touch begins */
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         
         for touch: AnyObject in touches {
             let location = touch.locationInNode(self)
             
+            
             // shoot ship beams
             
             // make sound
-
+            
         }
+        
     }
+    
+//    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+//        /* Called when a touch begins */
+//        
+//
+//    }
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
